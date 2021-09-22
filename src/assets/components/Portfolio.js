@@ -1,7 +1,7 @@
 import React from "react";
 
-function Project(props) {
+function Portfolio(props) {
 
 }
 
-export default Project;
+export default Portfolio;
