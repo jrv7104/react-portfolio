@@ -7,8 +7,11 @@ function App() {
   return( <div>
   <Header/>
   <About/>
-  {projects.map((project, index) => ( <MainProject key={index} project={project}/>))}
-  </div>);
+  {projects.map((project, index) => (
+                <MainProject key={index} project={project} />
+            ))}
+        </div>
+    );
 }
 
 export default App;
