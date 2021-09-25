@@ -158,3 +158,22 @@ background-size: cover;
 background-image: url("./images/Weather\ Dashboard.jpeg");
 background-size: cover;
 } */
+
+@media screen and (min-width: 812px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+header h1 {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 10vw;
+}
+
+header nav {
+  justify-content: center;
+}
