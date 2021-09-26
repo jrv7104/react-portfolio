@@ -105,7 +105,6 @@ color: blue;
 text-decoration: none;
 }
 
-
 .project {
 border: 5px solid gray;
 min-height: 225px;
@@ -130,34 +129,34 @@ margin: -22px 0 0 20px;
 padding: 0;
 /* display: inline; */
 }
-/* 
-.pwdGen {
-background-image: url("./images/Password\ Generator.jpeg");
-background-size: cover;
-}
 
 .mainP {
-background-image: url("./images/myDaily.jpg");
+background-image: url("./assets/images/myDaily.jpg");
 background-size: cover;
 }
 
 .mainB {
-background-image: url("./images/board-game-sommelier.jpg");
+background-image: url("./assets/images/board-game-sommelier.jpg");
 background-size: cover;
 }
 
+.pwdGen {
+  background-image: url("./assets/images/Password\ Generator.jpeg");
+  background-size: cover;
+  } 
+
 .workD {
-background-image: url("./images/Work\ Day\ Scheduler.jpeg");
+background-image: url("./assets/images/Work\ Day\ Scheduler.jpeg");
 background-size: cover;
 }
 .quiz {
-background-image: url("./images/Quiz\ Generator.jpeg");
+background-image: url("./assets/images/Quiz\ Generator.jpeg");
 background-size: cover;
 }
 .rain{
-background-image: url("./images/Weather\ Dashboard.jpeg");
+background-image: url("./assets/images/Weather\ Dashboard.jpeg");
 background-size: cover;
-} */
+} 
 
 @media screen and (min-width: 812px) {
   header {
