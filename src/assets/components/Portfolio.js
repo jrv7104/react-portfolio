@@ -1,8 +1,9 @@
 import React from "react";
 
 function Portfolio(props) {
+    console.log(props.project.class)
     return (
-        <div className="project pwdGen">
+        <div className={props.project.class}>
         <a
             href={props.project.deploy}
             target="_blank"

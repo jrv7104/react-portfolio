@@ -1,8 +1,9 @@
 import React from 'react';
 
 function mainProject(props) {
+    console.log(props.project.class)
     return (
-        <div className='project mainP'>
+        <div className={props.project.class}>
             <a
                 href={props.project.deploy}
                 target='_blank'
