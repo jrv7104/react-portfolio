@@ -8,9 +8,13 @@ function App() {
   return( <div>
   <Header/>
   <About/>
-  {projects.map((project, index) => (
+  <section className="page-section">
+    <div>
+                {projects.map((project, index) => (
                 <MainProject key={index} project={project} />
-            ))}
+                ))}
+    </div>
+            </section>
     <Contact />
         </div>
     );
