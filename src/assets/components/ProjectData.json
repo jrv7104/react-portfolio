@@ -1,12 +1,12 @@
 [{
     "deploy": "https://af-cmdz.github.io/myDaily/",
     "GitHub": "https://github.com/AF-cmdZ/myDaily",
-    "class": "MainP"
+    "class": "project mainP"
 },
 {
     "deploy": "https://game-board-sommelier.herokuapp.com/",
     "GitHub": "https://github.com/spacerambler/board-game-sommelier",
-    "class": "MainB"
+    "class": "project mainB"
 },
 {
     "deploy": "https://jrv7104.github.io/Password-Generator/",
