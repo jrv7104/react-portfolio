@@ -1,20 +1,21 @@
 import React from "react";
 import pic from "../images/profile_image.jpg";
+import { Link, withRouter } from "react-router-dom";
 
-function Header() {
+function Header(props) {
     return(
         <header>
         <img src={pic} className="profile-photo" alt="Photo coming soon!" width="20%" height="20%"/>
         <h1>Jason Viox</h1>
         <nav className="links">
-            <a href="#about">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact Me</a>
+            <Link to="/">About Me</Link>
+            <Link to="/portfolio">Work</Link>
+            <Link to="/contact">Contact Me</Link>
 
-            <a href="./Jason Viox_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <Link to="./Jason Viox_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</Link>
         </nav>
     </header>
     )
 }
 
-export default Header;
+export default withRouter(Header);
