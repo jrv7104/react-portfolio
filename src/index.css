@@ -158,6 +158,17 @@ background-image: url("./assets/images/Weather\ Dashboard.jpeg");
 background-size: cover;
 } 
 
+.logo{
+height: 75px;
+width: 75px;
+}
+
+address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 812px) {
   header {
     padding: 0 0 10px 0;
