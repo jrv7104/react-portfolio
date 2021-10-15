@@ -1,5 +1,5 @@
 {
-  "name": "react-portfolio",
+  "name": "cra-tailwind-starter",
   "private": true,
   "homepage": "https://jrv7104.github.io/react-portfolio",
   "dependencies": {
@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
