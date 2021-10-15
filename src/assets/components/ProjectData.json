@@ -1,32 +1,38 @@
 [{
     "deploy": "https://af-cmdz.github.io/myDaily/",
     "GitHub": "https://github.com/AF-cmdZ/myDaily",
-    "class": "project mainP"
+    "class": "project mainP",
+    "projectName": "myDaily"
 },
 {
     "deploy": "https://game-board-sommelier.herokuapp.com/",
     "GitHub": "https://github.com/spacerambler/board-game-sommelier",
-    "class": "project mainB"
+    "class": "project mainB",
+    "projectName": "board-game-sommelier"
 },
 {
     "deploy": "https://jrv7104.github.io/Password-Generator/",
     "GitHub": "https://github.com/jrv7104/Password-Generator",
-    "class": "project pwdGen"
+    "class": "project pwdGen",
+    "projectName": "Password Generator"
 },
 {
     "deploy": "https://jrv7104.github.io/day-planner/",
     "GitHub": "https://github.com/jrv7104/day-planner",
-    "class": "project workD"
+    "class": "project workD",
+    "projectName": "Day Planner"
 },
 {
     "deploy": "https://jrv7104.github.io/Quiz-Generator/",
     "GitHub": "https://github.com/jrv7104/Quiz-Generator",
-    "class": "project quiz"
+    "class": "project quiz",
+    "projectName": "Quiz Generator"
 },
 {
     "deploy": "https://jrv7104.github.io/weather-dashboard/",
     "GitHub": "https://github.com/jrv7104/weather-dashboard",
-    "class": "project rain"
+    "class": "project rain",
+    "projectName": "Weather Dashboard"
 }
 ]
 
