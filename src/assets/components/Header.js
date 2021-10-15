@@ -12,7 +12,7 @@ function Header(props) {
             <Link to="/portfolio">Work</Link>
             <Link to="/contact">Contact Me</Link>
 
-            <Link to="./Jason Viox_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</Link>
+            <a href="https://docdro.id/TcD5scf" target="_blank" rel="noopener noreferrer">Resume</a>
         </nav>
     </header>
     )
